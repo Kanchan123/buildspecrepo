@@ -3,6 +3,1009 @@ component: build
 timeoutInSeconds: 6000
 runAs: root
 shell: bash
+env:
+  variables:
+    "testEnv1" : "testValue1"
+    "testEnv2" : "testValue2"
+    "testEnv3" : "testValue3"
+    "testEnv4" : "testValue4"
+    "testEnv5" : "testValue5"
+    "testEnv6" : "testValue6"
+    "testEnv7" : "testValue7"
+    "testEnv8" : "testValue8"
+    "testEnv9" : "testValue9"
+    "testEnv10" : "testValue10"
+    "testEnv11" : "testValue11"
+    "testEnv12" : "testValue12"
+    "testEnv13" : "testValue13"
+    "testEnv14" : "testValue14"
+    "testEnv15" : "testValue15"
+    "testEnv16" : "testValue16"
+    "testEnv17" : "testValue17"
+    "testEnv18" : "testValue18"
+    "testEnv19" : "testValue19"
+    "testEnv20" : "testValue20"
+    "testEnv21" : "testValue21"
+    "testEnv22" : "testValue22"
+    "testEnv23" : "testValue23"
+    "testEnv24" : "testValue24"
+    "testEnv25" : "testValue25"
+    "testEnv26" : "testValue26"
+    "testEnv27" : "testValue27"
+    "testEnv28" : "testValue28"
+    "testEnv29" : "testValue29"
+    "testEnv30" : "testValue30"
+    "testEnv31" : "testValue31"
+    "testEnv32" : "testValue32"
+    "testEnv33" : "testValue33"
+    "testEnv34" : "testValue34"
+    "testEnv35" : "testValue35"
+    "testEnv36" : "testValue36"
+    "testEnv37" : "testValue37"
+    "testEnv38" : "testValue38"
+    "testEnv39" : "testValue39"
+    "testEnv40" : "testValue40"
+    "testEnv41" : "testValue41"
+    "testEnv42" : "testValue42"
+    "testEnv43" : "testValue43"
+    "testEnv44" : "testValue44"
+    "testEnv45" : "testValue45"
+    "testEnv46" : "testValue46"
+    "testEnv47" : "testValue47"
+    "testEnv48" : "testValue48"
+    "testEnv49" : "testValue49"
+    "testEnv50" : "testValue50"
+    "testEnv51" : "testValue51"
+    "testEnv52" : "testValue52"
+    "testEnv53" : "testValue53"
+    "testEnv54" : "testValue54"
+    "testEnv55" : "testValue55"
+    "testEnv56" : "testValue56"
+    "testEnv57" : "testValue57"
+    "testEnv58" : "testValue58"
+    "testEnv59" : "testValue59"
+    "testEnv60" : "testValue60"
+    "testEnv61" : "testValue61"
+    "testEnv62" : "testValue62"
+    "testEnv63" : "testValue63"
+    "testEnv64" : "testValue64"
+    "testEnv65" : "testValue65"
+    "testEnv66" : "testValue66"
+    "testEnv67" : "testValue67"
+    "testEnv68" : "testValue68"
+    "testEnv69" : "testValue69"
+    "testEnv70" : "testValue70"
+    "testEnv71" : "testValue71"
+    "testEnv72" : "testValue72"
+    "testEnv73" : "testValue73"
+    "testEnv74" : "testValue74"
+    "testEnv75" : "testValue75"
+    "testEnv76" : "testValue76"
+    "testEnv77" : "testValue77"
+    "testEnv78" : "testValue78"
+    "testEnv79" : "testValue79"
+    "testEnv80" : "testValue80"
+    "testEnv81" : "testValue81"
+    "testEnv82" : "testValue82"
+    "testEnv83" : "testValue83"
+    "testEnv84" : "testValue84"
+    "testEnv85" : "testValue85"
+    "testEnv86" : "testValue86"
+    "testEnv87" : "testValue87"
+    "testEnv88" : "testValue88"
+    "testEnv89" : "testValue89"
+    "testEnv90" : "testValue90"
+    "testEnv91" : "testValue91"
+    "testEnv92" : "testValue92"
+    "testEnv93" : "testValue93"
+    "testEnv94" : "testValue94"
+    "testEnv95" : "testValue95"
+    "testEnv96" : "testValue96"
+    "testEnv97" : "testValue97"
+    "testEnv98" : "testValue98"
+    "testEnv99" : "testValue99"
+    "testEnv100" : "testValue100"
+    "testEnv101" : "testValue101"
+    "testEnv102" : "testValue102"
+    "testEnv103" : "testValue103"
+    "testEnv104" : "testValue104"
+    "testEnv105" : "testValue105"
+    "testEnv106" : "testValue106"
+    "testEnv107" : "testValue107"
+    "testEnv108" : "testValue108"
+    "testEnv109" : "testValue109"
+    "testEnv110" : "testValue110"
+    "testEnv111" : "testValue111"
+    "testEnv112" : "testValue112"
+    "testEnv113" : "testValue113"
+    "testEnv114" : "testValue114"
+    "testEnv115" : "testValue115"
+    "testEnv116" : "testValue116"
+    "testEnv117" : "testValue117"
+    "testEnv118" : "testValue118"
+    "testEnv119" : "testValue119"
+    "testEnv120" : "testValue120"
+    "testEnv121" : "testValue121"
+    "testEnv122" : "testValue122"
+    "testEnv123" : "testValue123"
+    "testEnv124" : "testValue124"
+    "testEnv125" : "testValue125"
+    "testEnv126" : "testValue126"
+    "testEnv127" : "testValue127"
+    "testEnv128" : "testValue128"
+    "testEnv129" : "testValue129"
+    "testEnv130" : "testValue130"
+    "testEnv131" : "testValue131"
+    "testEnv132" : "testValue132"
+    "testEnv133" : "testValue133"
+    "testEnv134" : "testValue134"
+    "testEnv135" : "testValue135"
+    "testEnv136" : "testValue136"
+    "testEnv137" : "testValue137"
+    "testEnv138" : "testValue138"
+    "testEnv139" : "testValue139"
+    "testEnv140" : "testValue140"
+    "testEnv141" : "testValue141"
+    "testEnv142" : "testValue142"
+    "testEnv143" : "testValue143"
+    "testEnv144" : "testValue144"
+    "testEnv145" : "testValue145"
+    "testEnv146" : "testValue146"
+    "testEnv147" : "testValue147"
+    "testEnv148" : "testValue148"
+    "testEnv149" : "testValue149"
+    "testEnv150" : "testValue150"
+    "testEnv151" : "testValue151"
+    "testEnv152" : "testValue152"
+    "testEnv153" : "testValue153"
+    "testEnv154" : "testValue154"
+    "testEnv155" : "testValue155"
+    "testEnv156" : "testValue156"
+    "testEnv157" : "testValue157"
+    "testEnv158" : "testValue158"
+    "testEnv159" : "testValue159"
+    "testEnv160" : "testValue160"
+    "testEnv161" : "testValue161"
+    "testEnv162" : "testValue162"
+    "testEnv163" : "testValue163"
+    "testEnv164" : "testValue164"
+    "testEnv165" : "testValue165"
+    "testEnv166" : "testValue166"
+    "testEnv167" : "testValue167"
+    "testEnv168" : "testValue168"
+    "testEnv169" : "testValue169"
+    "testEnv170" : "testValue170"
+    "testEnv171" : "testValue171"
+    "testEnv172" : "testValue172"
+    "testEnv173" : "testValue173"
+    "testEnv174" : "testValue174"
+    "testEnv175" : "testValue175"
+    "testEnv176" : "testValue176"
+    "testEnv177" : "testValue177"
+    "testEnv178" : "testValue178"
+    "testEnv179" : "testValue179"
+    "testEnv180" : "testValue180"
+    "testEnv181" : "testValue181"
+    "testEnv182" : "testValue182"
+    "testEnv183" : "testValue183"
+    "testEnv184" : "testValue184"
+    "testEnv185" : "testValue185"
+    "testEnv186" : "testValue186"
+    "testEnv187" : "testValue187"
+    "testEnv188" : "testValue188"
+    "testEnv189" : "testValue189"
+    "testEnv190" : "testValue190"
+    "testEnv191" : "testValue191"
+    "testEnv192" : "testValue192"
+    "testEnv193" : "testValue193"
+    "testEnv194" : "testValue194"
+    "testEnv195" : "testValue195"
+    "testEnv196" : "testValue196"
+    "testEnv197" : "testValue197"
+    "testEnv198" : "testValue198"
+    "testEnv199" : "testValue199"
+    "testEnv200" : "testValue200"
+    "testEnv201" : "testValue201"
+    "testEnv202" : "testValue202"
+    "testEnv203" : "testValue203"
+    "testEnv204" : "testValue204"
+    "testEnv205" : "testValue205"
+    "testEnv206" : "testValue206"
+    "testEnv207" : "testValue207"
+    "testEnv208" : "testValue208"
+    "testEnv209" : "testValue209"
+    "testEnv210" : "testValue210"
+    "testEnv211" : "testValue211"
+    "testEnv212" : "testValue212"
+    "testEnv213" : "testValue213"
+    "testEnv214" : "testValue214"
+    "testEnv215" : "testValue215"
+    "testEnv216" : "testValue216"
+    "testEnv217" : "testValue217"
+    "testEnv218" : "testValue218"
+    "testEnv219" : "testValue219"
+    "testEnv220" : "testValue220"
+    "testEnv221" : "testValue221"
+    "testEnv222" : "testValue222"
+    "testEnv223" : "testValue223"
+    "testEnv224" : "testValue224"
+    "testEnv225" : "testValue225"
+    "testEnv226" : "testValue226"
+    "testEnv227" : "testValue227"
+    "testEnv228" : "testValue228"
+    "testEnv229" : "testValue229"
+    "testEnv230" : "testValue230"
+    "testEnv231" : "testValue231"
+    "testEnv232" : "testValue232"
+    "testEnv233" : "testValue233"
+    "testEnv234" : "testValue234"
+    "testEnv235" : "testValue235"
+    "testEnv236" : "testValue236"
+    "testEnv237" : "testValue237"
+    "testEnv238" : "testValue238"
+    "testEnv239" : "testValue239"
+    "testEnv240" : "testValue240"
+    "testEnv241" : "testValue241"
+    "testEnv242" : "testValue242"
+    "testEnv243" : "testValue243"
+    "testEnv244" : "testValue244"
+    "testEnv245" : "testValue245"
+    "testEnv246" : "testValue246"
+    "testEnv247" : "testValue247"
+    "testEnv248" : "testValue248"
+    "testEnv249" : "testValue249"
+    "testEnv250" : "testValue250"
+    "testEnv251" : "testValue251"
+    "testEnv252" : "testValue252"
+    "testEnv253" : "testValue253"
+    "testEnv254" : "testValue254"
+    "testEnv255" : "testValue255"
+    "testEnv256" : "testValue256"
+    "testEnv257" : "testValue257"
+    "testEnv258" : "testValue258"
+    "testEnv259" : "testValue259"
+    "testEnv260" : "testValue260"
+    "testEnv261" : "testValue261"
+    "testEnv262" : "testValue262"
+    "testEnv263" : "testValue263"
+    "testEnv264" : "testValue264"
+    "testEnv265" : "testValue265"
+    "testEnv266" : "testValue266"
+    "testEnv267" : "testValue267"
+    "testEnv268" : "testValue268"
+    "testEnv269" : "testValue269"
+    "testEnv270" : "testValue270"
+    "testEnv271" : "testValue271"
+    "testEnv272" : "testValue272"
+    "testEnv273" : "testValue273"
+    "testEnv274" : "testValue274"
+    "testEnv275" : "testValue275"
+    "testEnv276" : "testValue276"
+    "testEnv277" : "testValue277"
+    "testEnv278" : "testValue278"
+    "testEnv279" : "testValue279"
+    "testEnv280" : "testValue280"
+    "testEnv281" : "testValue281"
+    "testEnv282" : "testValue282"
+    "testEnv283" : "testValue283"
+    "testEnv284" : "testValue284"
+    "testEnv285" : "testValue285"
+    "testEnv286" : "testValue286"
+    "testEnv287" : "testValue287"
+    "testEnv288" : "testValue288"
+    "testEnv289" : "testValue289"
+    "testEnv290" : "testValue290"
+    "testEnv291" : "testValue291"
+    "testEnv292" : "testValue292"
+    "testEnv293" : "testValue293"
+    "testEnv294" : "testValue294"
+    "testEnv295" : "testValue295"
+    "testEnv296" : "testValue296"
+    "testEnv297" : "testValue297"
+    "testEnv298" : "testValue298"
+    "testEnv299" : "testValue299"
+    "testEnv300" : "testValue300"
+    "testEnv301" : "testValue301"
+    "testEnv302" : "testValue302"
+    "testEnv303" : "testValue303"
+    "testEnv304" : "testValue304"
+    "testEnv305" : "testValue305"
+    "testEnv306" : "testValue306"
+    "testEnv307" : "testValue307"
+    "testEnv308" : "testValue308"
+    "testEnv309" : "testValue309"
+    "testEnv310" : "testValue310"
+    "testEnv311" : "testValue311"
+    "testEnv312" : "testValue312"
+    "testEnv313" : "testValue313"
+    "testEnv314" : "testValue314"
+    "testEnv315" : "testValue315"
+    "testEnv316" : "testValue316"
+    "testEnv317" : "testValue317"
+    "testEnv318" : "testValue318"
+    "testEnv319" : "testValue319"
+    "testEnv320" : "testValue320"
+    "testEnv321" : "testValue321"
+    "testEnv322" : "testValue322"
+    "testEnv323" : "testValue323"
+    "testEnv324" : "testValue324"
+    "testEnv325" : "testValue325"
+    "testEnv326" : "testValue326"
+    "testEnv327" : "testValue327"
+    "testEnv328" : "testValue328"
+    "testEnv329" : "testValue329"
+    "testEnv330" : "testValue330"
+    "testEnv331" : "testValue331"
+    "testEnv332" : "testValue332"
+    "testEnv333" : "testValue333"
+    "testEnv334" : "testValue334"
+    "testEnv335" : "testValue335"
+    "testEnv336" : "testValue336"
+    "testEnv337" : "testValue337"
+    "testEnv338" : "testValue338"
+    "testEnv339" : "testValue339"
+    "testEnv340" : "testValue340"
+    "testEnv341" : "testValue341"
+    "testEnv342" : "testValue342"
+    "testEnv343" : "testValue343"
+    "testEnv344" : "testValue344"
+    "testEnv345" : "testValue345"
+    "testEnv346" : "testValue346"
+    "testEnv347" : "testValue347"
+    "testEnv348" : "testValue348"
+    "testEnv349" : "testValue349"
+    "testEnv350" : "testValue350"
+    "testEnv351" : "testValue351"
+    "testEnv352" : "testValue352"
+    "testEnv353" : "testValue353"
+    "testEnv354" : "testValue354"
+    "testEnv355" : "testValue355"
+    "testEnv356" : "testValue356"
+    "testEnv357" : "testValue357"
+    "testEnv358" : "testValue358"
+    "testEnv359" : "testValue359"
+    "testEnv360" : "testValue360"
+    "testEnv361" : "testValue361"
+    "testEnv362" : "testValue362"
+    "testEnv363" : "testValue363"
+    "testEnv364" : "testValue364"
+    "testEnv365" : "testValue365"
+    "testEnv366" : "testValue366"
+    "testEnv367" : "testValue367"
+    "testEnv368" : "testValue368"
+    "testEnv369" : "testValue369"
+    "testEnv370" : "testValue370"
+    "testEnv371" : "testValue371"
+    "testEnv372" : "testValue372"
+    "testEnv373" : "testValue373"
+    "testEnv374" : "testValue374"
+    "testEnv375" : "testValue375"
+    "testEnv376" : "testValue376"
+    "testEnv377" : "testValue377"
+    "testEnv378" : "testValue378"
+    "testEnv379" : "testValue379"
+    "testEnv380" : "testValue380"
+    "testEnv381" : "testValue381"
+    "testEnv382" : "testValue382"
+    "testEnv383" : "testValue383"
+    "testEnv384" : "testValue384"
+    "testEnv385" : "testValue385"
+    "testEnv386" : "testValue386"
+    "testEnv387" : "testValue387"
+    "testEnv388" : "testValue388"
+    "testEnv389" : "testValue389"
+    "testEnv390" : "testValue390"
+    "testEnv391" : "testValue391"
+    "testEnv392" : "testValue392"
+    "testEnv393" : "testValue393"
+    "testEnv394" : "testValue394"
+    "testEnv395" : "testValue395"
+    "testEnv396" : "testValue396"
+    "testEnv397" : "testValue397"
+    "testEnv398" : "testValue398"
+    "testEnv399" : "testValue399"
+    "testEnv400" : "testValue400"
+    "testEnv401" : "testValue401"
+    "testEnv402" : "testValue402"
+    "testEnv403" : "testValue403"
+    "testEnv404" : "testValue404"
+    "testEnv405" : "testValue405"
+    "testEnv406" : "testValue406"
+    "testEnv407" : "testValue407"
+    "testEnv408" : "testValue408"
+    "testEnv409" : "testValue409"
+    "testEnv410" : "testValue410"
+    "testEnv411" : "testValue411"
+    "testEnv412" : "testValue412"
+    "testEnv413" : "testValue413"
+    "testEnv414" : "testValue414"
+    "testEnv415" : "testValue415"
+    "testEnv416" : "testValue416"
+    "testEnv417" : "testValue417"
+    "testEnv418" : "testValue418"
+    "testEnv419" : "testValue419"
+    "testEnv420" : "testValue420"
+    "testEnv421" : "testValue421"
+    "testEnv422" : "testValue422"
+    "testEnv423" : "testValue423"
+    "testEnv424" : "testValue424"
+    "testEnv425" : "testValue425"
+    "testEnv426" : "testValue426"
+    "testEnv427" : "testValue427"
+    "testEnv428" : "testValue428"
+    "testEnv429" : "testValue429"
+    "testEnv430" : "testValue430"
+    "testEnv431" : "testValue431"
+    "testEnv432" : "testValue432"
+    "testEnv433" : "testValue433"
+    "testEnv434" : "testValue434"
+    "testEnv435" : "testValue435"
+    "testEnv436" : "testValue436"
+    "testEnv437" : "testValue437"
+    "testEnv438" : "testValue438"
+    "testEnv439" : "testValue439"
+    "testEnv440" : "testValue440"
+    "testEnv441" : "testValue441"
+    "testEnv442" : "testValue442"
+    "testEnv443" : "testValue443"
+    "testEnv444" : "testValue444"
+    "testEnv445" : "testValue445"
+    "testEnv446" : "testValue446"
+    "testEnv447" : "testValue447"
+    "testEnv448" : "testValue448"
+    "testEnv449" : "testValue449"
+    "testEnv450" : "testValue450"
+    "testEnv451" : "testValue451"
+    "testEnv452" : "testValue452"
+    "testEnv453" : "testValue453"
+    "testEnv454" : "testValue454"
+    "testEnv455" : "testValue455"
+    "testEnv456" : "testValue456"
+    "testEnv457" : "testValue457"
+    "testEnv458" : "testValue458"
+    "testEnv459" : "testValue459"
+    "testEnv460" : "testValue460"
+    "testEnv461" : "testValue461"
+    "testEnv462" : "testValue462"
+    "testEnv463" : "testValue463"
+    "testEnv464" : "testValue464"
+    "testEnv465" : "testValue465"
+    "testEnv466" : "testValue466"
+    "testEnv467" : "testValue467"
+    "testEnv468" : "testValue468"
+    "testEnv469" : "testValue469"
+    "testEnv470" : "testValue470"
+    "testEnv471" : "testValue471"
+    "testEnv472" : "testValue472"
+    "testEnv473" : "testValue473"
+    "testEnv474" : "testValue474"
+    "testEnv475" : "testValue475"
+    "testEnv476" : "testValue476"
+    "testEnv477" : "testValue477"
+    "testEnv478" : "testValue478"
+    "testEnv479" : "testValue479"
+    "testEnv480" : "testValue480"
+    "testEnv481" : "testValue481"
+    "testEnv482" : "testValue482"
+    "testEnv483" : "testValue483"
+    "testEnv484" : "testValue484"
+    "testEnv485" : "testValue485"
+    "testEnv486" : "testValue486"
+    "testEnv487" : "testValue487"
+    "testEnv488" : "testValue488"
+    "testEnv489" : "testValue489"
+    "testEnv490" : "testValue490"
+    "testEnv491" : "testValue491"
+    "testEnv492" : "testValue492"
+    "testEnv493" : "testValue493"
+    "testEnv494" : "testValue494"
+    "testEnv495" : "testValue495"
+    "testEnv496" : "testValue496"
+    "testEnv497" : "testValue497"
+    "testEnv498" : "testValue498"
+    "testEnv499" : "testValue499"
+    "testEnv500" : "testValue500"
+  exportedVariables:
+    - testEnv1
+    - testEnv2
+    - testEnv3
+    - testEnv4
+    - testEnv5
+    - testEnv6
+    - testEnv7
+    - testEnv8
+    - testEnv9
+    - testEnv10
+    - testEnv11
+    - testEnv12
+    - testEnv13
+    - testEnv14
+    - testEnv15
+    - testEnv16
+    - testEnv17
+    - testEnv18
+    - testEnv19
+    - testEnv20
+    - testEnv21
+    - testEnv22
+    - testEnv23
+    - testEnv24
+    - testEnv25
+    - testEnv26
+    - testEnv27
+    - testEnv28
+    - testEnv29
+    - testEnv30
+    - testEnv31
+    - testEnv32
+    - testEnv33
+    - testEnv34
+    - testEnv35
+    - testEnv36
+    - testEnv37
+    - testEnv38
+    - testEnv39
+    - testEnv40
+    - testEnv41
+    - testEnv42
+    - testEnv43
+    - testEnv44
+    - testEnv45
+    - testEnv46
+    - testEnv47
+    - testEnv48
+    - testEnv49
+    - testEnv50
+    - testEnv51
+    - testEnv52
+    - testEnv53
+    - testEnv54
+    - testEnv55
+    - testEnv56
+    - testEnv57
+    - testEnv58
+    - testEnv59
+    - testEnv60
+    - testEnv61
+    - testEnv62
+    - testEnv63
+    - testEnv64
+    - testEnv65
+    - testEnv66
+    - testEnv67
+    - testEnv68
+    - testEnv69
+    - testEnv70
+    - testEnv71
+    - testEnv72
+    - testEnv73
+    - testEnv74
+    - testEnv75
+    - testEnv76
+    - testEnv77
+    - testEnv78
+    - testEnv79
+    - testEnv80
+    - testEnv81
+    - testEnv82
+    - testEnv83
+    - testEnv84
+    - testEnv85
+    - testEnv86
+    - testEnv87
+    - testEnv88
+    - testEnv89
+    - testEnv90
+    - testEnv91
+    - testEnv92
+    - testEnv93
+    - testEnv94
+    - testEnv95
+    - testEnv96
+    - testEnv97
+    - testEnv98
+    - testEnv99
+    - testEnv100
+    - testEnv101
+    - testEnv102
+    - testEnv103
+    - testEnv104
+    - testEnv105
+    - testEnv106
+    - testEnv107
+    - testEnv108
+    - testEnv109
+    - testEnv110
+    - testEnv111
+    - testEnv112
+    - testEnv113
+    - testEnv114
+    - testEnv115
+    - testEnv116
+    - testEnv117
+    - testEnv118
+    - testEnv119
+    - testEnv120
+    - testEnv121
+    - testEnv122
+    - testEnv123
+    - testEnv124
+    - testEnv125
+    - testEnv126
+    - testEnv127
+    - testEnv128
+    - testEnv129
+    - testEnv130
+    - testEnv131
+    - testEnv132
+    - testEnv133
+    - testEnv134
+    - testEnv135
+    - testEnv136
+    - testEnv137
+    - testEnv138
+    - testEnv139
+    - testEnv140
+    - testEnv141
+    - testEnv142
+    - testEnv143
+    - testEnv144
+    - testEnv145
+    - testEnv146
+    - testEnv147
+    - testEnv148
+    - testEnv149
+    - testEnv150
+    - testEnv151
+    - testEnv152
+    - testEnv153
+    - testEnv154
+    - testEnv155
+    - testEnv156
+    - testEnv157
+    - testEnv158
+    - testEnv159
+    - testEnv160
+    - testEnv161
+    - testEnv162
+    - testEnv163
+    - testEnv164
+    - testEnv165
+    - testEnv166
+    - testEnv167
+    - testEnv168
+    - testEnv169
+    - testEnv170
+    - testEnv171
+    - testEnv172
+    - testEnv173
+    - testEnv174
+    - testEnv175
+    - testEnv176
+    - testEnv177
+    - testEnv178
+    - testEnv179
+    - testEnv180
+    - testEnv181
+    - testEnv182
+    - testEnv183
+    - testEnv184
+    - testEnv185
+    - testEnv186
+    - testEnv187
+    - testEnv188
+    - testEnv189
+    - testEnv190
+    - testEnv191
+    - testEnv192
+    - testEnv193
+    - testEnv194
+    - testEnv195
+    - testEnv196
+    - testEnv197
+    - testEnv198
+    - testEnv199
+    - testEnv200
+    - testEnv201
+    - testEnv202
+    - testEnv203
+    - testEnv204
+    - testEnv205
+    - testEnv206
+    - testEnv207
+    - testEnv208
+    - testEnv209
+    - testEnv210
+    - testEnv211
+    - testEnv212
+    - testEnv213
+    - testEnv214
+    - testEnv215
+    - testEnv216
+    - testEnv217
+    - testEnv218
+    - testEnv219
+    - testEnv220
+    - testEnv221
+    - testEnv222
+    - testEnv223
+    - testEnv224
+    - testEnv225
+    - testEnv226
+    - testEnv227
+    - testEnv228
+    - testEnv229
+    - testEnv230
+    - testEnv231
+    - testEnv232
+    - testEnv233
+    - testEnv234
+    - testEnv235
+    - testEnv236
+    - testEnv237
+    - testEnv238
+    - testEnv239
+    - testEnv240
+    - testEnv241
+    - testEnv242
+    - testEnv243
+    - testEnv244
+    - testEnv245
+    - testEnv246
+    - testEnv247
+    - testEnv248
+    - testEnv249
+    - testEnv250
+    - testEnv251
+    - testEnv252
+    - testEnv253
+    - testEnv254
+    - testEnv255
+    - testEnv256
+    - testEnv257
+    - testEnv258
+    - testEnv259
+    - testEnv260
+    - testEnv261
+    - testEnv262
+    - testEnv263
+    - testEnv264
+    - testEnv265
+    - testEnv266
+    - testEnv267
+    - testEnv268
+    - testEnv269
+    - testEnv270
+    - testEnv271
+    - testEnv272
+    - testEnv273
+    - testEnv274
+    - testEnv275
+    - testEnv276
+    - testEnv277
+    - testEnv278
+    - testEnv279
+    - testEnv280
+    - testEnv281
+    - testEnv282
+    - testEnv283
+    - testEnv284
+    - testEnv285
+    - testEnv286
+    - testEnv287
+    - testEnv288
+    - testEnv289
+    - testEnv290
+    - testEnv291
+    - testEnv292
+    - testEnv293
+    - testEnv294
+    - testEnv295
+    - testEnv296
+    - testEnv297
+    - testEnv298
+    - testEnv299
+    - testEnv300
+    - testEnv301
+    - testEnv302
+    - testEnv303
+    - testEnv304
+    - testEnv305
+    - testEnv306
+    - testEnv307
+    - testEnv308
+    - testEnv309
+    - testEnv310
+    - testEnv311
+    - testEnv312
+    - testEnv313
+    - testEnv314
+    - testEnv315
+    - testEnv316
+    - testEnv317
+    - testEnv318
+    - testEnv319
+    - testEnv320
+    - testEnv321
+    - testEnv322
+    - testEnv323
+    - testEnv324
+    - testEnv325
+    - testEnv326
+    - testEnv327
+    - testEnv328
+    - testEnv329
+    - testEnv330
+    - testEnv331
+    - testEnv332
+    - testEnv333
+    - testEnv334
+    - testEnv335
+    - testEnv336
+    - testEnv337
+    - testEnv338
+    - testEnv339
+    - testEnv340
+    - testEnv341
+    - testEnv342
+    - testEnv343
+    - testEnv344
+    - testEnv345
+    - testEnv346
+    - testEnv347
+    - testEnv348
+    - testEnv349
+    - testEnv350
+    - testEnv351
+    - testEnv352
+    - testEnv353
+    - testEnv354
+    - testEnv355
+    - testEnv356
+    - testEnv357
+    - testEnv358
+    - testEnv359
+    - testEnv360
+    - testEnv361
+    - testEnv362
+    - testEnv363
+    - testEnv364
+    - testEnv365
+    - testEnv366
+    - testEnv367
+    - testEnv368
+    - testEnv369
+    - testEnv370
+    - testEnv371
+    - testEnv372
+    - testEnv373
+    - testEnv374
+    - testEnv375
+    - testEnv376
+    - testEnv377
+    - testEnv378
+    - testEnv379
+    - testEnv380
+    - testEnv381
+    - testEnv382
+    - testEnv383
+    - testEnv384
+    - testEnv385
+    - testEnv386
+    - testEnv387
+    - testEnv388
+    - testEnv389
+    - testEnv390
+    - testEnv391
+    - testEnv392
+    - testEnv393
+    - testEnv394
+    - testEnv395
+    - testEnv396
+    - testEnv397
+    - testEnv398
+    - testEnv399
+    - testEnv400
+    - testEnv401
+    - testEnv402
+    - testEnv403
+    - testEnv404
+    - testEnv405
+    - testEnv406
+    - testEnv407
+    - testEnv408
+    - testEnv409
+    - testEnv410
+    - testEnv411
+    - testEnv412
+    - testEnv413
+    - testEnv414
+    - testEnv415
+    - testEnv416
+    - testEnv417
+    - testEnv418
+    - testEnv419
+    - testEnv420
+    - testEnv421
+    - testEnv422
+    - testEnv423
+    - testEnv424
+    - testEnv425
+    - testEnv426
+    - testEnv427
+    - testEnv428
+    - testEnv429
+    - testEnv430
+    - testEnv431
+    - testEnv432
+    - testEnv433
+    - testEnv434
+    - testEnv435
+    - testEnv436
+    - testEnv437
+    - testEnv438
+    - testEnv439
+    - testEnv440
+    - testEnv441
+    - testEnv442
+    - testEnv443
+    - testEnv444
+    - testEnv445
+    - testEnv446
+    - testEnv447
+    - testEnv448
+    - testEnv449
+    - testEnv450
+    - testEnv451
+    - testEnv452
+    - testEnv453
+    - testEnv454
+    - testEnv455
+    - testEnv456
+    - testEnv457
+    - testEnv458
+    - testEnv459
+    - testEnv460
+    - testEnv461
+    - testEnv462
+    - testEnv463
+    - testEnv464
+    - testEnv465
+    - testEnv466
+    - testEnv467
+    - testEnv468
+    - testEnv469
+    - testEnv470
+    - testEnv471
+    - testEnv472
+    - testEnv473
+    - testEnv474
+    - testEnv475
+    - testEnv476
+    - testEnv477
+    - testEnv478
+    - testEnv479
+    - testEnv480
+    - testEnv481
+    - testEnv482
+    - testEnv483
+    - testEnv484
+    - testEnv485
+    - testEnv486
+    - testEnv487
+    - testEnv488
+    - testEnv489
+    - testEnv490
+    - testEnv491
+    - testEnv492
+    - testEnv493
+    - testEnv494
+    - testEnv495
+    - testEnv496
+    - testEnv497
+    - testEnv498
+    - testEnv499
+    - testEnv500
 steps:
   - type: Command
     timeoutInSeconds: 600
@@ -31,11 +1034,194 @@ steps:
     timeoutInSeconds: 600
     name: "Creating Generic Artifact"
     command: |
+      echo "Hello World" > abc1.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc2.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc3.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc4.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc5.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc6.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc7.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc8.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc9.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc10.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc11.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc12.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc13.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc14.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc15.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc16.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc17.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc18.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc19.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
       echo "Hello World" > abc.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc20.txt
+  - type: Command
+    timeoutInSeconds: 600
+    name: "Creating Generic Artifact"
+    command: |
+      echo "Hello World" > abc21.txt
+steps:
+  - type: VulnerabilityAudit        # required
+    name: "Vulnerability Audit Step" # optional
+    configuration:                   # required
+      buildType: maven               # required
+      pomFilePath: ${OCI_PRIMARY_SOURCE_DIR}/pom.xml # required (Supports parameter substitution)
+      maxPermissibleCvssV2Score: 10.0                # optional (defaults to 0.0)
+      maxPermissibleCvssV3Score: 10.0                # optional (defaults to 0.0)
+    knowledgeBaseId: ${PIPELINE_PARAM_KB_OCID_REGIONAL} # required (Supports parameter substitution)
+    vulnerabilityAuditName: VulnerabilityAuditReport  # optional (Supports parameter substitution), name will be auto generated.
+  - type: Command
+    name: "Build Source"
+    timeoutInSeconds: 400
+    command: |
+      echo "hello world"
+      echo "test text" > abc22.txt
+      echo $minor_version
+      echo $testEnv
 outputArtifacts:
   - name: hello_dev_image
     type: DOCKER_IMAGE
     location: hello-test:1.0
-  - name: ABC
+  - name: ABC1
     type: BINARY
-    location: abc.txt
+    location: abc1.txt
+  - name: ABC2
+    type: BINARY
+    location: abc2.txt
+  - name: ABC3
+    type: BINARY
+    location: abc3.txt
+  - name: ABC4
+    type: BINARY
+    location: abc4.txt
+  - name: ABC5
+    type: BINARY
+    location: abc5.txt
+  - name: ABC6
+    type: BINARY
+    location: abc6.txt
+  - name: ABC7
+    type: BINARY
+    location: abc7.txt
+  - name: ABC8
+    type: BINARY
+    location: abc8.txt
+  - name: ABC9
+    type: BINARY
+    location: abc9.txt
+  - name: ABC10
+    type: BINARY
+    location: abc10.txt
+  - name: ABC11
+    type: BINARY
+    location: abc11.txt
+  - name: ABC12
+    type: BINARY
+    location: abc13.txt
+  - name: ABC14
+    type: BINARY
+    location: abc14.txt
+  - name: ABC15
+    type: BINARY
+    location: abc15.txt
+  - name: ABC16
+    type: BINARY
+    location: abc16.txt
+  - name: ABC17
+    type: BINARY
+    location: abc17.txt
+  - name: ABC18
+    type: BINARY
+    location: abc18.txt
+  - name: ABC19
+    type: BINARY
+    location: abc19.txt
+  - name: ABC20
+    type: BINARY
+    location: abc20.txt
+  - name: ABC21
+    type: BINARY
+    location: abc21.txt
+  - name: ABC21
+    type: BINARY
+    location: abc22.txt
