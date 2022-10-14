@@ -1140,24 +1140,6 @@ steps:
     name: "Creating Generic Artifact"
     command: |
       echo "Hello World" > abc21.txt
-steps:
-  - type: VulnerabilityAudit        # required
-    name: "Vulnerability Audit Step" # optional
-    configuration:                   # required
-      buildType: maven               # required
-      pomFilePath: ${OCI_PRIMARY_SOURCE_DIR}/pom.xml # required (Supports parameter substitution)
-      maxPermissibleCvssV2Score: 10.0                # optional (defaults to 0.0)
-      maxPermissibleCvssV3Score: 10.0                # optional (defaults to 0.0)
-    knowledgeBaseId: ${PIPELINE_PARAM_KB_OCID_REGIONAL} # required (Supports parameter substitution)
-    vulnerabilityAuditName: VulnerabilityAuditReport  # optional (Supports parameter substitution), name will be auto generated.
-  - type: Command
-    name: "Build Source"
-    timeoutInSeconds: 400
-    command: |
-      echo "hello world"
-      echo "test text" > abc22.txt
-      echo $minor_version
-      echo $testEnv
 outputArtifacts:
   - name: hello_dev_image
     type: DOCKER_IMAGE
@@ -1222,6 +1204,3 @@ outputArtifacts:
   - name: ABC21
     type: BINARY
     location: abc21.txt
-  - name: ABC21
-    type: BINARY
-    location: abc22.txt
