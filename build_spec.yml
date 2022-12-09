@@ -20,7 +20,7 @@ env:
 steps:
   - type: Command
     name: "Build Source"
-    timeoutInSeconds: 400
+    timeoutInSeconds: 2000
     command: |
       echo "hello world"
       echo $minor_version
