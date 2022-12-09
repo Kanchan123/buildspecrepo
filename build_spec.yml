@@ -27,6 +27,7 @@ steps:
       echo $testEnv > abc.txt
       trigger=${OCI_TRIGGER_COMMIT_HASH}
       echo $trigger
+      sleep 30m
 outputArtifacts:
   - name: ABC
     type: BINARY
