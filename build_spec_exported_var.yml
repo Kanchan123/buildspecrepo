@@ -19,11 +19,12 @@ env:
 steps:
   - type: Command
     name: "Build Source"
-    timeoutInSeconds: 400
+    timeoutInSeconds: 1300
     command: |
       echo "hello world"
       echo $testEnv > abc.txt
       echo $minor_version
+      sleep 20m
 outputArtifacts:
   - name: ABC
     type: BINARY
