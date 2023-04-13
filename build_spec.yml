@@ -22,6 +22,9 @@ steps:
     name: "Build Source"
     timeoutInSeconds: 2000
     command: |
+      cat /proc/meminfo
+      free -h
+      vmstat -a -S M -w -t
       echo "hello world"
       echo $minor_version
       echo $testEnv > abc.txt
