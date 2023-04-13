@@ -25,6 +25,8 @@ steps:
       cat /proc/meminfo
       free -h
       vmstat -a -S M -w -t
+      top
+      ps -o pid,user,%mem,command ax | sort -b -k3 -r
       echo "hello world"
       echo $minor_version
       echo $testEnv > abc.txt
